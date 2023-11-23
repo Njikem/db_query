@@ -1,0 +1,12 @@
+insert into pokemon(name, type) values('Dark', 'Fire');
+insert into pokemon(name, type) values('Steel', 'Water');
+insert into pokemon(name, type) values('Psychic', 'Electric');
+insert into pokemon(name, type) values('Bug', 'Grass');
+insert into pokemon(name, type) values('Rotom', 'test');
+
+
+select name, type from pokemon where type = 'Fire';
+
+delete from pokemon where type = 'test';
+
+update pokemon set type = 'Fire' where type = 'test';
